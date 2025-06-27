@@ -1,7 +1,7 @@
 # FBPhisher 
 
 
-<img src="https://github.com/user-attachments/assets/35927b5e-9545-49fc-ae52-7432943f35ad" alt="FBPhisher Logo" width="300"/>
+<img src="https://github.com/user-attachments/assets/35927b5e-9545-49fc-ae52-7432943f35ad" alt="FBPhisher Logo" width="500"/>
 
 **Facebook Login Phishing Simulation Tool**
 
