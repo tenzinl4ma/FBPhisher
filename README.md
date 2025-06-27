@@ -158,7 +158,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Ethical Use Reminder
 
-AdminCrack exists for one purpose: **to educate and protect**.\
+FBPhisher exists for one purpose: **to educate and protect**.\
 Misuse of this tool violates ethical hacking standards and legal boundaries.
 
 Stay sharp.\
