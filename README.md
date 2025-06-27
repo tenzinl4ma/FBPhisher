@@ -60,7 +60,7 @@ pip install -r requirements.txt
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/FBPhisher.git
+git clone https://github.com/tenzinl4ma/FBPhisher.git
 cd FBPhisher
 ```
 
