@@ -1,5 +1,6 @@
-# FBPhisher 🔐  
-*Facebook Login Phishing Simulation Tool*
+# FBPhisher 
+
+**Facebook Login Phishing Simulation Tool**
 
 > ⚠️ **Warning:** This tool is highly dangerous in the wrong hands. Use only for **ethical hacking**, **penetration testing**, or **educational purposes** — with explicit authorization.
 
@@ -10,24 +11,25 @@ Collected data is sent to a **Telegram bot** in real-time.
 ---
 
 ## 📁 File Structure
+
+```
 FBPhisher/
-├── requirements.txt # Python dependencies
-├── script.js # JavaScript for redirecting form and sending data to Telegram
-├── app.py # Main Flask application
-├── templates/ # HTML template of fake Facebook login page
-└── static/ # CSS, JS, images
-
-
+├── requirements.txt         # Python dependencies
+├── script.js                # JavaScript for form redirect and Telegram
+├── app.py                   # Main Flask application
+├── templates/               # HTML template (fake Facebook login)
+└── static/                  # CSS, JS, images
+```
 
 ---
 
 ## 🧪 Features
 
 - Fake Facebook login page
-- Logs email and password input
+- Logs email and password inputs
 - Captures IP address and browser info
 - Sends data to Telegram via bot
-- Runs locally by default (use ngrok for public access)
+- Runs locally (can be exposed with ngrok)
 
 ---
 
@@ -35,74 +37,107 @@ FBPhisher/
 
 - Python 3.x
 - Flask
-- A working Telegram bot
+- Telegram bot
 
-Install dependencies using pip:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
 
-## You can also use virtual environment
+(Recommended) Setup virtual environment:
+
+```bash
 python3 -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+source .venv/bin/activate   # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-##🧩 Setup Instructions
-1. Clone the repository
-bash
-1
-2
-git clone https://github.com/your-username/FBPhisher.git 
+```
+
+---
+
+## 🥉 Setup Instructions
+
+1. **Clone the Repository**
+
+```bash
+git clone https://github.com/your-username/FBPhisher.git
 cd FBPhisher
+```
 
+2. **Install Dependencies**
 
-# 2. Install the Dependecies
+```bash
 pip install -r requirements.txt
-3. Configure Telegram Bot
-Open script.js in your favorite editor:
-nano script.js
-### Update the following
-const botToken = "YOUR_TELEGRAM_BOT_TOKEN";  // Replace with your bot token
-const chatId = "YOUR_TELEGRAM_CHAT_ID";      // Replace with your chat ID
-# All set, Run with
+```
+
+3. **Configure Telegram Bot** Edit `script.js`:
+
+```js
+const botToken = "YOUR_TELEGRAM_BOT_TOKEN"; // Replace with your bot token
+const chatId = "YOUR_TELEGRAM_CHAT_ID";     // Replace with your chat ID
+```
+
+4. **Run the App**
+
+```bash
 python3 app.py
+```
 
-By default, the login page will be available at:
-👉 http://localhost:5000
+The fake login page will be available at: [**http://localhost:5000**](http://localhost:5000)
 
-To expose this page publicly (for remote testing), use ngrok :
+5. **Expose with Ngrok (Optional)**
 
-bash
-
-
-1
+```bash
 ngrok http 5000
-Copy the HTTPS link and share it responsibly within an authorized environment.
+```
 
-📬 What Gets Collected
-When someone submits the fake login form, the following details are captured:
+Copy and share the HTTPS link **only within authorized environments**.
 
-Email Address
-Password
-IP Address
-User-Agent (Browser & Device Info)
-These are then sent to your Telegram bot.
+---
 
-⚠️ Legal Disclaimer
-This tool is strictly for educational and ethical hacking purposes only.
-Do not use without explicit written permission from the target(s).
-Misuse of this tool may result in legal consequences. 
+## 📬 What Gets Collected
+
+- Email Address
+- Password
+- IP Address
+- User-Agent (Browser & Device Info)
+
+These details are sent to your configured Telegram bot.
+
+---
+
+## ⚠️ Legal Disclaimer
+
+This tool is **strictly** for educational and ethical hacking purposes **only**.
+
+Do **not** use without explicit written permission from the target(s). Misuse may lead to legal consequences.
 
 You are responsible for:
 
-Ensuring you have proper authorization before testing
-Informing users about potential risks
-Complying with all applicable laws and regulations
-🧑‍💻 Author
-Tenzin Lama
-<br>
-Instagram: https://www.instagram.com/tenzinlama212/#
-Email: tenzinlama212@gmail.com
+- Obtaining proper authorization
+- Informing test users of potential risks
+- Complying with applicable laws and regulations
 
+---
 
+## 🧑‍💻 Author
 
+**Tenzin Lama**
+
+- Instagram: [@tenzinlama212](https://www.instagram.com/tenzinlama212/)
+- Email: [tenzinlama212@gmail.com](mailto\:tenzinlama212@gmail.com)
+
+---
+
+## 📝 License
+
+**MIT License**
+
+Copyright (c) 2025 Tenzin Lama
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
