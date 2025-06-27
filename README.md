@@ -1,5 +1,7 @@
 # FBPhisher 
 
+![image](https://github.com/user-attachments/assets/35927b5e-9545-49fc-ae52-7432943f35ad)
+
 **Facebook Login Phishing Simulation Tool**
 
 > ⚠️ **Warning:** This tool is highly dangerous in the wrong hands. Use only for **ethical hacking**, **penetration testing**, or **educational purposes** — with explicit authorization.
@@ -30,6 +32,10 @@ FBPhisher/
 - Captures IP address and browser info
 - Sends data to Telegram via bot
 - Runs locally (can be exposed with ngrok)
+
+
+<img width="1433" alt="Screenshot 2025-06-27 at 3 52 04 PM" src="https://github.com/user-attachments/assets/747a3183-926e-490a-9e5b-3aaed736e663" />
+***Above is exact clone of the facebook login in browser***
 
 ---
 
@@ -92,6 +98,8 @@ ngrok http 5000
 ```
 
 Copy and share the HTTPS link **only within authorized environments**.
+<img width="1248" alt="Screenshot 2025-06-27 at 3 45 18 PM" src="https://github.com/user-attachments/assets/cfad6aad-2e69-4706-a5ac-9090ae2cf807" />
+
 
 ---
 
@@ -104,6 +112,9 @@ Copy and share the HTTPS link **only within authorized environments**.
 
 These details are sent to your configured Telegram bot.
 
+![IMG_0165](https://github.com/user-attachments/assets/d20d2089-a897-42dd-80a3-cf0e35435486)
+
+ 
 ---
 
 ## ⚠️ Legal Disclaimer
@@ -129,7 +140,7 @@ You are responsible for:
 
 ---
 
-## 📝 License
+##  License
 
 **MIT License**
 
@@ -140,4 +151,15 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+## 👤 Author
 
+---
+
+## Ethical Use Reminder
+
+AdminCrack exists for one purpose: **to educate and protect**.\
+Misuse of this tool violates ethical hacking standards and legal boundaries.
+
+Stay sharp.\
+Stay ethical.<br>
+Stay halal.
