@@ -1,8 +1,8 @@
 # FBPhisher 
 
-
-<img align="center" src="https://github.com/user-attachments/assets/35927b5e-9545-49fc-ae52-7432943f35ad" alt="FBPhisher Logo" height="500" />
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/12345678/your-image.png" alt="FBPhisher Logo" width="500"/>
+</p>
 **Facebook Login Phishing Simulation Tool**
 
 > ⚠️ **Warning:** This tool is highly dangerous in the wrong hands. Use only for **ethical hacking**, **penetration testing**, or **educational purposes** — with explicit authorization.
